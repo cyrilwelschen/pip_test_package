@@ -1,0 +1,10 @@
+Source (how-to):
+https://packaging.python.org/tutorials/packaging-projects/
+
+instead of:
+
+"twine upload --repository-url https://test.pypi.org/legacy/ dist/*"
+
+use:
+
+"python3 -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*"
